@@ -12,9 +12,9 @@
 </ol>
 <h4>Pontos de atenção</h4>
 <ul>
-  <li>não utilizar ip público para saída do serviços WP (Evitem publicar o serviço WP via IP Público)</li>
+  <li>Não utilizar ip público para saída do serviços WP (Evitem publicar o serviço WP via IP Público)</li>
   <li>Sugestão para o tráfego de internet sair pelo LB (Load Balancer Classic)</li>
-  <li>pastas públicas e estáticos do wordpress sugestão de utilizar o EFS (Elastic File Sistem)</li>
+  <li>Pastas públicas e estáticos do wordpress sugestão de utilizar o EFS (Elastic File Sistem)</li>
   <li>Fica a critério de cada integrante usar Dockerfile ou Dockercompose</li>
   <li>Necessário demonstrar a aplicação wordpress funcionando (tela de login)</li>
   <li>Aplicação Wordpress precisa estar rodando na porta 80 ou 8080</li>
