@@ -86,8 +86,7 @@ Criar 2 route tables:
 Após a criação fazer as associações das subnets criadas anteriormente: <code>subnet-publica-1</code>, <code>subnet-privada-1</code> e <code>subnet-privada-2</code>
 
 ### Criação do Internet Gateway
-Será criado o Internet Gateway com o nome <code>ig-projeto</code>.
-Após isso o Internet Gateway, ir em <b>Route Tables</b> e faz a associação de borda(Edge Association) com o ig-projeto.
+Será criado o Internet Gateway com o nome <code>ig-projeto</code>.<br></br>
 Em seguida editar rotas e acrescentar as configurações abaixo:
 <img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/associa%C3%A7%C3%A3o_ig.JPG">
 
