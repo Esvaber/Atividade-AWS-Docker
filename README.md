@@ -2,8 +2,8 @@
 <h3>2º Projeto para a Bolsa Compass DevSecOps.</h3>
 
 <ul>
-  <a href="https://github.com/Esvaber/Atividade-AWS-Docker/edit/main/README.md#descri%C3%A7%C3%A3o-da-atividade"><li>Descrição da Atividade</li></a>
-    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/edit/main/README.md#cria%C3%A7%C3%A3o-da-inst%C3%A2ncia-ec2"><li>Criação da instância EC2</li></a>
+  <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#descri%C3%A7%C3%A3o-da-atividade"><li>Descrição da Atividade</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-da-inst%C3%A2ncia-ec2"><li>Criação da instância EC2</li></a>
 </ul>
 
 ## Descrição da Atividade
