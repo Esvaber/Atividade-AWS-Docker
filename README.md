@@ -24,7 +24,7 @@
 
 <b>Seguir a topologia abaixo:</b>
 <br></br>
-<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/topologia.JPG">
+<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/topologia.JPG">
 
 <h4>Pontos de atenção</h4>
 <ul>
@@ -89,7 +89,7 @@ Após a criação fazer as associações das subnets criadas anteriormente: <cod
 Será criado o Internet Gateway com o nome <code>ig-projeto</code>.
 Após isso o Internet Gateway, ir em <b>Route Tables</b> e faz a associação de borda(Edge Association) com o ig-projeto.
 Em seguida editar rotas e acrescentar as configurações abaixo:
-<img src="">
+<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/associa%C3%A7%C3%A3o_ig.JPG">
 
 
 
