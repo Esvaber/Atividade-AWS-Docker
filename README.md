@@ -10,6 +10,11 @@
   <li>Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação Wordpress</li>
   <li>Configuração do serviço de Load Balancer AWS para a aplicação Wordpress</li>
 </ol>
+
+<b>Seguir a topologia abaixo:</b>
+<br></br>
+<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/topologia.JPG">
+
 <h4>Pontos de atenção</h4>
 <ul>
   <li>Não utilizar ip público para saída do serviços WP (Evitem publicar o serviço WP via IP Público)</li>
