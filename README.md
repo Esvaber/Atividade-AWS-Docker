@@ -3,7 +3,12 @@
 
 <ul>
   <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#descri%C3%A7%C3%A3o-da-atividade"><li>Descrição da Atividade</li></a>
-    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-da-inst%C3%A2ncia-ec2"><li>Criação da instância EC2</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-da-inst%C3%A2ncia-ec2"><li>Configuração da instância EC2</li></a>
+  <ul>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-da-vpc"><li>Criação da VPC</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-de-subnets"><li>Criação de subnets</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-de-subnets"><li>Criação de route table</li></a>
+  </ul>
 </ul>
 
 ## Descrição da Atividade
@@ -32,5 +37,53 @@
   <li>Utilizar repositório git para versionamento</li>
 </ul>
 
-## Criação da instância EC2
+## Configuração da instância EC2
 
+### Criação da VPC
+Será criado uma VPC com as seguintes configurações:
+<ul>
+  <li>Name: <code>vpc-projeto</code></li>
+  <li>IPv4 CIDR: <code>10.0.0.0/16</code></li>
+  <li>IPv6 CIDR block: <code>No IPv6 CIDR block</code></li>
+</ul>
+
+### Criação de subnets
+As subnets criadas serão vinculadas à VPC criada anteriormente: <code>vpc-projeto</code>
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>AZ</th>
+    <th>IPv4 subnet CIDR block</th>
+  </tr>
+  <tr>
+    <td>subnet-publica-1</td>
+    <td>US East (N. Virginia) / us-east-1a</td>
+    <td>10.0.1.0/24</td>
+  </tr>
+  <tr>
+    <td>subnet-privada-1</td>
+    <td>US East (N. Virginia) / us-east-1b</td>
+    <td>10.0.2.0/24</td>
+  </tr>
+  <tr>
+    <td>subnet-privada-2</td>
+    <td>US East (N. Virginia) / us-east-1c</td>
+    <td>10.0.3.0/24</td>
+  </tr>
+</table>
+
+### Criação de route table
+Criar a route table:
+<ul>
+  <li>Nome: <code>rt-projeto</code></li>
+  <li>VPC: <code>vpc-projeto</code></li>
+</ul>
+Após a criação fazer as associações das subnets criadas anteriormente: <code>subnet-publica-1</code>, <code>subnet-privada-1</code> e <code>subnet-privada-2</code>
+
+
+Fazer a criação de uma instância EC2 que vai ter as seguintes configurações:
+<ul>
+  <li>Sistema Operacional: Amazon Linux 2</li>
+  <li>Família: t3.small</li>
+  <li></li>
+</ul>
