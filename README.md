@@ -2,12 +2,12 @@
 <h3>2º Projeto para a Bolsa Compass DevSecOps.</h3>
 
 <ul>
-  <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#descri%C3%A7%C3%A3o-da-atividade"><li>Descrição da Atividade</li></a>
-    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-da-inst%C3%A2ncia-ec2"><li>Configuração da instância EC2</li></a>
+  <a href="https://github.com/Esvaber/Atividade-AWS-Docker?tab=readme-ov-file#descri%C3%A7%C3%A3o-da-atividade"><li>Descrição da Atividade</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#configura%C3%A7%C3%A3o-da-inst%C3%A2ncia-ec2"><li>Configuração da instância EC2</li></a>
   <ul>
-    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-da-vpc"><li>Criação da VPC</li></a>
-    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-de-subnets"><li>Criação de subnets</li></a>
-    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/README.md#cria%C3%A7%C3%A3o-de-subnets"><li>Criação de route table</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#cria%C3%A7%C3%A3o-da-vpc"><li>Criação da VPC</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#cria%C3%A7%C3%A3o-de-subnetss"><li>Criação de subnets</li></a>
+    <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#cria%C3%A7%C3%A3o-de-route-table"><li>Criação de route table</li></a>
   </ul>
 </ul>
 
