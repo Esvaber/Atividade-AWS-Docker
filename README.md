@@ -73,12 +73,30 @@ As subnets criadas serão vinculadas à VPC criada anteriormente: <code>vpc-proj
 </table>
 
 ### Criação de route table
-Criar a route table:
+Criar 2 route tables:
 <ul>
-  <li>Nome: <code>rt-projeto</code></li>
+  <li>Nome: <code>rt-publica-projeto</code></li>
   <li>VPC: <code>vpc-projeto</code></li>
 </ul>
+<ul>
+  <li>Nome: <code>rt-privada-projeto</code></li>
+  <li>VPC: <code>vpc-projeto</code></li>
+</ul>
+
 Após a criação fazer as associações das subnets criadas anteriormente: <code>subnet-publica-1</code>, <code>subnet-privada-1</code> e <code>subnet-privada-2</code>
+
+### Criação do Internet Gateway
+Será criado o Internet Gateway com o nome <code>ig-projeto</code>.
+Após isso o Internet Gateway, ir em <b>Route Tables</b> e faz a associação de borda(Edge Association) com o ig-projeto.
+Em seguida editar rotas e acrescentar as configurações abaixo:
+<img src="">
+
+
+
+
+
+
+
 
 
 Fazer a criação de uma instância EC2 que vai ter as seguintes configurações:
