@@ -87,7 +87,7 @@ Após a criação fazer as associações das subnets criadas anteriormente: <cod
 
 ### Criação do Internet Gateway
 Será criado o Internet Gateway com o nome <code>ig-projeto</code>.<br></br>
-Em seguida editar rotas e acrescentar as configurações abaixo:
+Em seguida editar rotas e acrescentar as configurações de Internet Gateway abaixo:
 <img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/associa%C3%A7%C3%A3o_ig.JPG">
 
 
