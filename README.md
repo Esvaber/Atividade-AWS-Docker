@@ -70,6 +70,11 @@ As subnets criadas serão vinculadas à VPC criada anteriormente: <code>vpc-proj
     <td>US East (N. Virginia) / us-east-1c</td>
     <td>10.0.3.0/24</td>
   </tr>
+  <tr>
+    <td>subnet-publica-2</td>
+    <td>US East (N. Virginia) / us-east-1c</td>
+    <td>10.0.4.0/24</td>
+  </tr>
 </table>
 
 ### Criação de route table
