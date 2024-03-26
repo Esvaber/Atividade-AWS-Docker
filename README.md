@@ -90,7 +90,7 @@ Criar 2 route tables:
 
 Após a criação fazer as associações das subnets criadas anteriormente: <br></br>
 subnet-publica-1 e subnet-publica-2 = <code>rt-publica-projeto</code> <br></br>
-subnet-privada-1 e subnet-privada-2 = <code>rt-publica-projeto</code>
+subnet-privada-1 e subnet-privada-2 = <code>rt-privada-projeto</code>
 
 ### Criação do Internet Gateway
 Será criado o Internet Gateway com o nome <code>ig-projeto</code>.<br></br>
