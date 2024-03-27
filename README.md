@@ -1,4 +1,4 @@
-# Atividade-AWS-Docker
+![image](https://github.com/Esvaber/Atividade-AWS-Docker/assets/59067382/0a2c4ffd-8821-4308-aa4b-2e768d1cdd47)# Atividade-AWS-Docker
 <h3>2º Projeto para a Bolsa Compass DevSecOps.</h3>
 
 <ul>
@@ -11,6 +11,7 @@
     <li>Criação do Internet Gateway</li>
     <li>Criação de NAT Gateway</li>
   </ul>
+  <li>Criação da RDS</li>
 </ul>
 
 ## Descrição da Atividade
@@ -117,3 +118,10 @@ Fazer a criação de uma instância EC2 que vai ter as seguintes configurações
   <li>Família: t3.small</li>
   <li></li>
 </ul>
+
+### Criação da RDS
+Usaremos a <code>Criação padrão</code>, escolhendo MySQL em <code>Opções de Mecanismo</code> e usaremos a versão <code>MySQL 8.0.35</code>.<br>
+Estaremo usando o <code>Nível Gratuito</code> e identificaremos a base de dados com o nome <code>wordpress</code>.<br>
+Após a escolha da Login e Senha, especificarei o uso da VPC <code>vpc-projeto</code>.<br>
+Será selecionado o Grupo de Segurança criado para a RDS: <code>sgprojeto_rds</code>. Ela possui a regra de saída abaixo:<br>
+
