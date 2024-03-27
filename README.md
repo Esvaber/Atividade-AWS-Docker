@@ -101,8 +101,8 @@ Em seguida editar rotas e acrescentar as configurações de Internet Gateway aba
 
 ### Criação de NAT Gateway
 Criar um NAT Gateway com o nome <code>natgw-projeto</code> e associado à <code>subnet-publica-1</code>.
-Usarei um IP Elástico já criado no Projeto anterior (52.202.207.69).
-
+Usarei um IP Elástico já criado no Projeto anterior (52.202.207.69). <br></br>
+<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/NatGateway.JPG">
 
 
 
