@@ -8,6 +8,8 @@
     <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#cria%C3%A7%C3%A3o-da-vpc"><li>Criação da VPC</li></a>
     <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#cria%C3%A7%C3%A3o-de-subnetss"><li>Criação de subnets</li></a>
     <a href="https://github.com/Esvaber/Atividade-AWS-Docker/tree/main?tab=readme-ov-file#cria%C3%A7%C3%A3o-de-route-table"><li>Criação de route table</li></a>
+    <li>Criação do Internet Gateway</li>
+    <li>Criação de NAT Gateway</li>
   </ul>
 </ul>
 
@@ -97,6 +99,9 @@ Será criado o Internet Gateway com o nome <code>ig-projeto</code>.<br></br>
 Em seguida editar rotas e acrescentar as configurações de Internet Gateway abaixo:
 <img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/associa%C3%A7%C3%A3o_ig.JPG">
 
+### Criação de NAT Gateway
+Criar um NAT Gateway com o nome <code>natgw-projeto</code> e associado à <code>subnet-publica-1</code>.
+Usarei um IP Elástico já criado no Projeto anterior (52.202.207.69).
 
 
 
