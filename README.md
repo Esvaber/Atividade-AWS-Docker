@@ -124,5 +124,5 @@ Usaremos a <code>Criação padrão</code>, escolhendo MySQL em <code>Opções de
 Estaremo usando o <code>Nível Gratuito</code> e identificaremos a base de dados com o nome <code>wordpress</code>.<br>
 Após a escolha da Login e Senha, especificarei o uso da VPC <code>vpc-projeto</code>.<br>
 Será selecionado o Grupo de Segurança criado para a RDS: <code>sgprojeto_rds</code>. Ela possui a regra de saída abaixo:<br>
-<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/sg_rds.JPG">
+<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/sg_rds_regras.JPG">
 
