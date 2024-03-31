@@ -130,4 +130,4 @@ Será selecionado o Grupo de Segurança criado para a RDS: <code>sgprojeto_rds</
 ### Criação do EFS
 Criaremos um EFS com o nome <code>projeto-efs</code> e associado ao VPC <code>vpc-projeto</code>.<br>
 Dentro das opções de personalização em <b>Acesso à Rede</b>, selecionaremos o security group <code>sgprojetos_efs</code>, criado com a seguinte configuração de entrada:<br>
-<img src="">
+<img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/sg_efs.JPG">
