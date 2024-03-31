@@ -12,6 +12,7 @@
     <li>Criação de NAT Gateway</li>
   </ul>
   <li>Criação da RDS</li>
+  <li>Criação do EFS</li>
 </ul>
 
 ## Descrição da Atividade
@@ -126,3 +127,7 @@ Após a escolha da Login e Senha, especificarei o uso da VPC <code>vpc-projeto</
 Será selecionado o Grupo de Segurança criado para a RDS: <code>sgprojeto_rds</code>. Ela possui a regra de entrada abaixo:<br>
 <img src="https://github.com/Esvaber/Atividade-AWS-Docker/blob/main/Imagens/sg_rds_regras.JPG">
 
+### Criação do EFS
+Criaremos um EFS com o nome <code>projeto-efs</code> e associado ao VPC <code>vpc-projeto</code>.<br>
+Dentro das opções de personalização em <b>Acesso à Rede</b>, selecionaremos o security group <code>sgprojetos_efs</code>, criado com a seguinte configuração de entrada:<br>
+<img src="">
